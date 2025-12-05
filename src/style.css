@@ -1,0 +1,108 @@
+:root {
+  font-family: 'mulish';
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #2F353B;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face{
+    font-family: 'mulish';
+    src: url('../public/assets/fonts/Mulish-VariableFont_wght.ttf');
+}
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 60px;
+}
+h2{
+  font-weight: 300  ;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 40px;
+}
+p{
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: white;
+}
+li{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+  list-style: none;
+}
+
+button {
+  font-family: 'mulish';
+  width: 317px;
+  height: 57px;
+  border: 1px solid white;
+  border-radius: 41px;
+  transition: 0.3s;
+  background: none;
+}
+#black{
+  color: #171717;
+
+}
+
+button:hover {
+  background-color: white;
+  color: #171717;
+}
+button:hover {
+  background-color: white;
+  color: #171717;
+}
+#black-btn{
+  width: 317px;
+  height: 57px;
+  border: 1px solid #171717;
+  color: #171717;
+  border-radius: 41px;
+  transition: 0.3s;
+  background: none;
+}
+#black-btn:hover{
+  background-color: #171717;
+  color: white;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+
+@media (prefers-color-scheme: light) {
+  
+}

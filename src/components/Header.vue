@@ -14,7 +14,7 @@ const closeMenu = () => {
 }
 
 const menuItems = [
-  { name: 'ПРОФИЛЬ', route: '/profile' },
+  { name: 'ПРОФИЛЬ', route: '/register' },
   { name: 'ДИАГНОСТИКА', route: '/diagnostics' },
   { name: 'ПРОФИЛАКТИКА КАРИЕСА', route: '/prevention' },
   { name: 'ТЕРАПИЯ', route: '/therapy' },

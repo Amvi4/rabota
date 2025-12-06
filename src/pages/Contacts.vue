@@ -3,7 +3,7 @@
         <div class="hero-section">
             <div class="hero-content">
                 <h1>КОНТАКТЫ</h1>
-                <button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                <RouterLink to="/payment"><button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
             </div>
         </div>
 
@@ -29,7 +29,7 @@
                             <p>Пн-Пт: 9:00 - 20:00<br>Сб-Вс: 10:00 - 18:00</p>
                         </div>
                     </div>
-                    <button>ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                    <RouterLink to="/payment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
                 </div>
             </div>
         </div>

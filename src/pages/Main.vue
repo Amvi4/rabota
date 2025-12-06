@@ -7,7 +7,7 @@
         <div class="main-img">
             <div class="main-text">
                 <h1>Стоматологическая клиника </h1>
-                <button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                <RouterLink to="/payment"><button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
             </div>
         </div>
         <div class="container">
@@ -18,7 +18,7 @@
                         полный спектр стоматологических услуг на европейском уровне.
                         Мы используем передовое оборудование и digital технологии.
                     </p>
-                    <button>ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                    <RouterLink to="/payment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
                 </div>
             </div>
             <div class="cont-imgs">
@@ -36,7 +36,7 @@
                     <li>Абсолютная уверенность в результатах лечения. </li>
                     <li>Индивидуальный подход и экономия времени пациента.</li>
                     <li>Безупречный сервис и интерьер, в котором приятно находиться.</li>
-                    <button>ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                    <RouterLink to="/payment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
                 </ul>
                 
             </div>

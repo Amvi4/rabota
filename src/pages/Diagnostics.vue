@@ -3,7 +3,7 @@
         <div class="hero-section">
             <div class="hero-content">
                 <h1>ДИАГНОСТИКА</h1>
-                <button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                <RouterLink to="/payment"><button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
             </div>
         </div>
 
@@ -17,7 +17,7 @@
                         <li>Изображения в режиме реального времени (визуализация диагностического процесса на экране)</li>
                         <li>Отсутствие рентгеновского излучения позволяет обнаружить изменения у пациентов с радиофобией, онкобольных, детей, беременных женщин и малоподвижных пациентов</li>
                     </ul>
-                    <button>ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                    <RouterLink to="/payment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
                         <li>Высокая точность диагностики</li>
                         <li>Возможность обнаружения проблем на ранних стадиях</li>
                     </ul>
-                    <button>ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                    <RouterLink to="/payment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
                 </div>
             </div>
         </div>

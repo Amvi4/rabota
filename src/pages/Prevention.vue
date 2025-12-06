@@ -3,7 +3,7 @@
         <div class="hero-section">
             <div class="hero-content">
                 <h1>ПРОФИЛАКТИКА КАРИЕСА</h1>
-                <button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                <RouterLink to="/payment"><button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
             </div>
         </div>
 
@@ -19,7 +19,7 @@
                         <li>Обучение правильной гигиене</li>
                         <li>Регулярные профилактические осмотры</li>
                     </ul>
-                    <button>ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                    <RouterLink to="/payment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
                 </div>
             </div>
         </div>

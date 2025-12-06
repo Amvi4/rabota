@@ -2,31 +2,19 @@
     <div class="profile-page">
         <div class="hero-section">
             <div class="hero-content">
-                <h1>О КЛИНИКЕ</h1>
-                <button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                <h1>ПРОФИЛЬ</h1>
+                <RouterLink to="/payment"><button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
             </div>
         </div>
 
         <div class="container">
             <div class="cont-text">
-                <h2>НАША МИССИЯ</h2>
+                <h2>ВАШИ ДАННЫЕ</h2>
                 <div class="cont-btn">
-                    <p>Мы стремимся обеспечить высочайший уровень стоматологической помощи, используя передовое оборудование и digital технологии. Наша цель - здоровые улыбки и довольные пациенты.</p>
-                    <button>ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                        <p>egsoidghio</p>
+                        <p>fnfe@gmail.com</p>
+                    <button>ИЗМЕНИТЬ</button>
                 </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="cont-text">
-                <h2>НАШИ ЦЕННОСТИ</h2>
-                <ul class="cont-btn">
-                    <li>Профессионализм и опыт наших врачей</li>
-                    <li>Использование только проверенных материалов и технологий</li>
-                    <li>Индивидуальный подход к каждому пациенту</li>
-                    <li>Прозрачность в работе и честность в отношениях</li>
-                    <li>Комфорт и забота о вашем здоровье</li>
-                </ul>
             </div>
         </div>
     </div>
@@ -81,6 +69,9 @@
 
 .cont-text p {
     width: 679px;
+}
+.cont-text ul li{
+    list-style: none;
 }
 
 .cont-btn {

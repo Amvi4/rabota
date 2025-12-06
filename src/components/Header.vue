@@ -30,14 +30,14 @@ const navigateTo = (route) => {
 <template>
     <header>
         <div class="menu" @click="toggleMenu">
-            <img src="../icons/burger.svg" alt="бургер">
+            <img src="/assets/icons/burger.svg" alt="бургер">
             МЕНЮ
         </div>
         <RouterLink to="/">
-            <img src="../images/logo.png" alt="логотип">
+            <img src="/images/logo.png" alt="логотип">
         </RouterLink>
         <div class="lang">
-            <img src="../icons/strelka.svg" alt="стрелочка">
+            <img src="/assets/icons/strelka.svg" alt="стрелочка">
             RUS
         </div>
         
@@ -46,7 +46,7 @@ const navigateTo = (route) => {
             <div v-if="isMenuOpen" class="menu-overlay" @click="toggleMenu">
                 <div class="menu-panel" @click.stop>
                     <div class="menu-header">
-                        <img src="../icons/burger.svg" alt="бургер" @click="toggleMenu">
+                        <img src="/assets/icons/burger.svg" alt="бургер" @click="toggleMenu">
                         <span>МЕНЮ</span>
                     </div>
                     <nav class="menu-nav">

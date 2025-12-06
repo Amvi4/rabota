@@ -3,7 +3,7 @@
         <div class="hero-section">
             <div class="hero-content">
                 <h1>КОМАНДА</h1>
-                <button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                <RouterLink to="/payment"><button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
             </div>
         </div>
 
@@ -18,7 +18,7 @@
                         <li>Опыт работы от 10 лет</li>
                         <li>Регулярное повышение квалификации</li>
                     </ul>
-                    <button>ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                    <RouterLink to="/payment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
                 </div>
             </div>
         </div>

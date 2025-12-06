@@ -9,6 +9,9 @@ import Contacts from "../pages/Contacts.vue";
 import Services from "../pages/Services.vue";
 import Team from "../pages/Team.vue";
 import Reviews from "../pages/Reviews.vue";
+import Login from "../pages/auth/Login.vue"
+import Register from "../pages/auth/Register.vue"
+import Payment from "../pages/auth/Payment.vue";
 
 const routes = [
     { path: '/', name: 'main', component: Main },
@@ -20,6 +23,9 @@ const routes = [
     { path: '/services', name: 'services', component: Services },
     { path: '/team', name: 'team', component: Team },
     { path: '/reviews', name: 'reviews', component: Reviews },
+    { path: '/login', name: 'login', component: Login },
+    { path: '/register', name: 'register', component: Register },
+    { path: '/payment', name: 'payment', component: Payment },
 ]
 
 const router = createRouter({

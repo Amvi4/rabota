@@ -33,13 +33,9 @@ const navigateTo = (route) => {
             <img src="/assets/icons/burger.svg" alt="бургер">
             МЕНЮ
         </div>
-        <RouterLink to="/">
+        <RouterLink to="/" class="logo">
             <img src="/images/logo.png" alt="логотип">
         </RouterLink>
-        <div class="lang">
-            <img src="/assets/icons/strelka.svg" alt="стрелочка">
-            RUS
-        </div>
         
         <!-- Всплывающее меню -->
         <transition name="menu">
@@ -91,6 +87,7 @@ header{
     display: flex;
     align-items: center;
 }
+
 
 /* Всплывающее меню */
 .menu-overlay {

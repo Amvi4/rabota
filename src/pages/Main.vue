@@ -7,7 +7,7 @@
         <div class="main-img">
             <div class="main-text">
                 <h1>Стоматологическая клиника </h1>
-                <RouterLink to="/payment"><button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
+                <RouterLink to="/appointment"><button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
             </div>
         </div>
         <div class="container">
@@ -18,7 +18,7 @@
                         полный спектр стоматологических услуг на европейском уровне.
                         Мы используем передовое оборудование и digital технологии.
                     </p>
-                    <RouterLink to="/payment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
+                    <RouterLink to="/appointment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
                 </div>
             </div>
             <div class="cont-imgs">
@@ -36,7 +36,7 @@
                     <li>Абсолютная уверенность в результатах лечения. </li>
                     <li>Индивидуальный подход и экономия времени пациента.</li>
                     <li>Безупречный сервис и интерьер, в котором приятно находиться.</li>
-                    <RouterLink to="/payment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
+                    <RouterLink to="/appointment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
                 </ul>
                 
             </div>
@@ -72,6 +72,11 @@
     background-color: white;
     color: #777C88;
     border: 1px solid white;
+}
+.main-btn:hover{
+    background-color: rgb(175, 175, 175);
+    color: #1e1e1f;
+    border: 1px solid rgb(175, 175, 175);
 }
 .main-btn button{
     margin: 40px;

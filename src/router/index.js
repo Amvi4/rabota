@@ -12,6 +12,7 @@ import Reviews from "../pages/Reviews.vue";
 import Login from "../pages/auth/Login.vue"
 import Register from "../pages/auth/Register.vue"
 import Payment from "../pages/auth/Payment.vue";
+import Appointment from "../pages/Appointment.vue";
 
 const routes = [
     { path: '/', name: 'main', component: Main },
@@ -26,6 +27,7 @@ const routes = [
     { path: '/login', name: 'login', component: Login },
     { path: '/register', name: 'register', component: Register },
     { path: '/payment', name: 'payment', component: Payment },
+    { path: '/appointment', name: 'appointment', component: Appointment },
 ]
 
 const router = createRouter({

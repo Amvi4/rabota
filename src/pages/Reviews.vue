@@ -3,7 +3,7 @@
         <div class="hero-section">
             <div class="hero-content">
                 <h1>ОТЗЫВЫ</h1>
-                <RouterLink to="/payment"><button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
+                <RouterLink to="/appointment"><button class="main-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
             </div>
         </div>
 
@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="cont-text">
-                <RouterLink to="/payment"><button>ОСТАВИТЬ ОТЗЫВ</button></RouterLink>
+                <button>ОСТАВИТЬ ОТЗЫВ</button>
             </div>
         </div>
     </div>

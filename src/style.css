@@ -63,6 +63,7 @@ button {
   width: 317px;
   height: 57px;
   border: 1px solid white;
+  color: white;
   border-radius: 41px;
   transition: 0.3s;
   background: none;
@@ -73,13 +74,9 @@ button {
 }
 
 button:hover {
-  background-color: white;
-  color: #171717;
+  background-color: #0000003b;
 }
-button:hover {
-  background-color: white;
-  color: #171717;
-}
+
 #black-btn{
   width: 317px;
   height: 57px;

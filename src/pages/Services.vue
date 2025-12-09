@@ -19,7 +19,6 @@
                         <li>Профессиональная гигиена</li>
                         <li>Эстетическая стоматология</li>
                     </ul>
-                    <RouterLink to="/appointment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
                 </div>
             </div>
         </div>

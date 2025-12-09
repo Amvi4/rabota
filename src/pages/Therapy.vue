@@ -18,7 +18,6 @@
                         <li>Минимально инвазивные методы лечения</li>
                         <li>Эстетические реставрации</li>
                     </ul>
-                    <RouterLink to="/appointment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
                 </div>
             </div>
         </div>
@@ -33,7 +32,6 @@
                         <li>Использование микроскопа</li>
                         <li>Современные методы обработки каналов</li>
                     </ul>
-                    <RouterLink to="/appointment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
                 </div>
             </div>
         </div>

@@ -21,6 +21,22 @@
                     <p class="review-text">"Лучшая стоматология в городе. Чисто, комфортно, качественно."</p>
                     <p class="review-author">— Алексей Смирнов</p>
                 </div>
+                <div class="review-item">
+                    <p class="review-text">"Отличная клиника! Восстановили все зубы с сильным кариесом"</p>
+                    <p class="review-author">— Никита Никитенков</p>
+                </div>
+                <div class="review-item">
+                    <p class="review-text">"После первого же посещения виден результат. Все в высшем качестве."</p>
+                    <p class="review-author">— Лев Толстой</p>
+                </div>
+                <div class="review-item">
+                    <p class="review-text">"Колол дрова и топор отскочил тыльной стороной в челюсть. В клинике вылечили зубы и сделали это настолько хорошо, что будьто ничего и не было"</p>
+                    <p class="review-author">— Прохор Филиппович</p>
+                </div>
+                <div class="review-item">
+                    <p class="review-text">"Нет ничего лучше, чем зубы без кариеса.  Спасибо вам"</p>
+                    <p class="review-author">— Игорь Антонович</p>
+                </div>
             </div>
             <div class="cont-text">
                 <button>ОСТАВИТЬ ОТЗЫВ</button>

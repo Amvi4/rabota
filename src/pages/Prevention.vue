@@ -19,7 +19,6 @@
                         <li>Обучение правильной гигиене</li>
                         <li>Регулярные профилактические осмотры</li>
                     </ul>
-                    <RouterLink to="/appointment"><button>ЗАПИСАТЬСЯ НА ПРИЕМ</button></RouterLink>
                 </div>
             </div>
         </div>

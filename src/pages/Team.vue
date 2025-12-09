@@ -2,6 +2,10 @@
     const items = [
         {image:'/assets/images/tetka.png', name: 'Ольга Григорьевна', job: 'Стоматолог', stage: 5},
         {image:'/assets/images/muzhik.png', name: 'Глеб Викторович', job: 'Стоматолог', stage: 10},
+        {image:'/assets/images/tetka2.png', name: 'Инна Никитовна', job: 'Стоматолог', stage: 8},
+        {image:'/assets/images/muzhik2.png', name: 'Анатолий Геннадьевич', job: 'Стоматолог', stage: 21},
+        {image:'/assets/images/tetka3.png', name: 'Анна Игоревна', job: 'Стоматолог', stage: 6},
+        {image:'/assets/images/muzhik3.png', name: 'Кирилл Викторович', job: 'Стоматолог', stage: 40},
     ]
 </script>
 
@@ -138,5 +142,7 @@
     padding: 0;
     gap: 20px;
 }
-
+.spec img{
+    max-width: 405px;
+}
 </style>

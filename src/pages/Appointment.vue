@@ -100,7 +100,7 @@
                             placeholder="Опишите причину обращения или дополнительные пожелания"
                         ></textarea>
                     </div>
-                    <div class="form-group" @submit.prevent="handleAppointment">
+                    <div class="form-group" @submit.prevent="handleAppointment" :key="generateCaptcha">
                         <label>Введите результат: {{ captcha.a }} + {{ captcha.b }} = ?</label>
                         <input 
                             type="number" 

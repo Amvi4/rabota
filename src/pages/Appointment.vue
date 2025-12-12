@@ -100,6 +100,17 @@
                             placeholder="Опишите причину обращения или дополнительные пожелания"
                         ></textarea>
                     </div>
+                    <div class="form-group" @submit.prevent="handleAppointment">
+                        <label>Введите результат: {{ captcha.a }} + {{ captcha.b }} = ?</label>
+                        <input 
+                            type="number" 
+                            v-model="captchaInput" 
+                            required
+                            placeholder="Решите пример"
+                        >
+                    </div>
+
+
 
                     <div class="form-options">
                         <label class="checkbox-label">
@@ -122,6 +133,23 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
+const captcha = ref({
+  a: Math.floor(Math.random() * 10),
+  b: Math.floor(Math.random() * 10)
+});
+
+const captchaInput = ref("");
+
+const generateCaptcha = () => {
+  captcha.value = {
+    a: Math.floor(Math.random() * 10),
+    b: Math.floor(Math.random() * 10)
+  };
+  captchaInput.value = "";
+};
+
+
+
 
 const router = useRouter()
 

@@ -98,6 +98,7 @@ const handleRegister = () => {
     // После успешной регистрации:
     // router.push('/login')
     router.push("/profile"); 
+    alert('Вы были успешно зарегистрированы')
 }
 </script>
 

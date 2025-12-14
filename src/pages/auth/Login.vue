@@ -57,6 +57,7 @@ const handleLogin = () => {
     // После успешного входа:
     // router.push('/profile')
     router.push("/profile"); 
+    alert('Вы вошли в аккаунт')
 }
 </script>
 

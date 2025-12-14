@@ -107,7 +107,7 @@
 .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     width: 679px;
 }
 

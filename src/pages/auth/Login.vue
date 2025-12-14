@@ -31,7 +31,7 @@
                         </label>
                         <RouterLink to="/forgot-password" class="forgot-link">Забыли пароль?</RouterLink>
                     </div>
-                    <RouterLink to="/profile"><button type="submit" class="submit-btn">ВОЙТИ</button></RouterLink>
+                    <button type="submit" class="submit-btn">ВОЙТИ</button>
                     <p class="auth-link">
                         Нет аккаунта? 
                         <RouterLink to="/register">Зарегистрироваться</RouterLink>
@@ -56,6 +56,7 @@ const handleLogin = () => {
     console.log('Login:', { email: email.value, password: password.value, rememberMe: rememberMe.value })
     // После успешного входа:
     // router.push('/profile')
+    router.push("/profile"); 
 }
 </script>
 

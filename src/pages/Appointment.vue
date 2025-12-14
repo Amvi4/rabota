@@ -119,7 +119,7 @@
                         </label>
                     </div>
 
-                    <button type="submit" class="submit-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+                    <button class="submit-btn" @click="validate">ЗАПИСАТЬСЯ НА ПРИЕМ</button>
                     
                     <p class="info-note">
                         После отправки заявки с вами свяжется администратор для подтверждения записи.
@@ -130,9 +130,29 @@
     </div>
 </template>
 
+
 <script setup>
 import { ref, computed } from 'vue'
+import { reactive } from "vue"
 import { useRouter } from 'vue-router'
+
+const validLogin = "example@mail.ru"
+const validPassword = "qwerty"
+
+const form = reactive({
+  login: "",
+  password: ""
+})
+
+function validate() {
+  if (form.login === validLogin && form.password === validPassword) {
+    alert("Аккаунт подтверждён!");
+    closeModal();
+    router.push("/"); 
+  } else {
+    error.value = "Неправильный логин или пароль"
+  }
+}
 const captcha = ref({
   a: Math.floor(Math.random() * 10),
   b: Math.floor(Math.random() * 10)
@@ -189,6 +209,7 @@ const handleAppointment = () => {
         email: email.value,
         comment: comment.value
     })
+    router.push("/"); 
     
     // После успешной отправки:
     alert('Заявка успешно отправлена! Мы свяжемся с вами в ближайшее время.')
@@ -205,6 +226,7 @@ const handleAppointment = () => {
     align-items: center;
     justify-content: center;
     background-color: #2F353B;
+    padding: 150px;
 }
 
 .appointment-container {

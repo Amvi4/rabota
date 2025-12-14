@@ -60,7 +60,7 @@
                             <span>Я согласен с условиями использования</span>
                         </label>
                     </div>
-                    <RouterLink to="/profile"><button type="submit" class="submit-btn">ЗАРЕГИСТРИРОВАТЬСЯ</button></RouterLink>
+                    <button type="submit" class="submit-btn">ЗАРЕГИСТРИРОВАТЬСЯ</button>
                     <p class="auth-link">
                         Уже есть аккаунт? 
                         <RouterLink to="/login">Войти</RouterLink>
@@ -97,6 +97,7 @@ const handleRegister = () => {
     })
     // После успешной регистрации:
     // router.push('/login')
+    router.push("/profile"); 
 }
 </script>
 

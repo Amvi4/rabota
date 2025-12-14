@@ -1,4 +1,6 @@
 <script setup>
+
+
     const items = [
         {image:'/assets/images/tetka.png', name: 'Ольга Григорьевна', job: 'Стоматолог', stage: 5},
         {image:'/assets/images/muzhik.png', name: 'Глеб Викторович', job: 'Стоматолог', stage: 10},
@@ -34,7 +36,7 @@
             </div>
         </div>
         <div class="specialists">
-            <div class="spec" v-for="item in items" :key="item.image">
+            <div class="spec" v-for="item in items" :key="item.image" @load="lazy">
                 <img :src="item.image" alt="стоматолог">
                 <div class="spectext">
                     {{ item.name }}
